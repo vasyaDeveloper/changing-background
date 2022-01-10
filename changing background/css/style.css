@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 250px;
+    margin: 350px auto 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .title {
+    background-color: black;
+    color: white;
+    font-family: 'Noto Serif', serif;
+    padding: 20px;
+    border-radius: 25px;
+    text-align: center;
+}
+
+.button {
+    margin-top: 20px;
+    width: 170px;
+    padding: 10px 0;
+    border-radius: 10px;
+    background: transparent;
+    border: 2.5px solid black;
+    color: black;
+    background-size: cover;
+    font-family: 'Noto Serif', serif;
+    transition: .1s ease-in-out;
+}
+
+.button:active {
+    transform: translateY(2.5px);
+    background: black;
+    color: white;
+}
